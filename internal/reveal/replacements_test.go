@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/Helcaraxan/gomod/internal/depgraph"
-	"github.com/Helcaraxan/gomod/internal/modules"
-	"github.com/Helcaraxan/gomod/internal/testutil"
+	"github.com/paulxiong/gomod/internal/depgraph"
+	"github.com/paulxiong/gomod/internal/modules"
+	"github.com/paulxiong/gomod/internal/testutil"
 )
 
 var (

@@ -9,9 +9,9 @@ import (
 	"github.com/bmatcuk/doublestar/v3"
 	"go.uber.org/zap"
 
-	"github.com/Helcaraxan/gomod/internal/graph"
-	"github.com/Helcaraxan/gomod/internal/logger"
-	"github.com/Helcaraxan/gomod/internal/query"
+	"github.com/paulxiong/gomod/internal/graph"
+	"github.com/paulxiong/gomod/internal/logger"
+	"github.com/paulxiong/gomod/internal/query"
 )
 
 var ErrInvalidQuery = errors.New("invalid query")
@@ -204,7 +204,8 @@ func (g *DepGraph) computeSetGraphTraversal(log *logger.Logger, expr query.FuncE
 		}
 	}
 
-	maxDepth := math.MaxInt64
+	//boostx maxDepth := math.MaxInt64
+	maxDepth := math.MaxInt32
 	if len(args.Args()) == 2 {
 		v, ok := args.Args()[1].(*query.ExprInteger)
 		if !ok {

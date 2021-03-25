@@ -1,9 +1,9 @@
 package depgraph
 
 import (
-	"github.com/Helcaraxan/gomod/internal/graph"
-	"github.com/Helcaraxan/gomod/internal/logger"
-	"github.com/Helcaraxan/gomod/internal/modules"
+	"github.com/paulxiong/gomod/internal/graph"
+	"github.com/paulxiong/gomod/internal/logger"
+	"github.com/paulxiong/gomod/internal/modules"
 )
 
 // DepGraph represents a Go module's dependency graph.

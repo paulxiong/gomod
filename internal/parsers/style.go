@@ -6,8 +6,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/Helcaraxan/gomod/internal/logger"
-	"github.com/Helcaraxan/gomod/internal/printer"
+	"github.com/paulxiong/gomod/internal/logger"
+	"github.com/paulxiong/gomod/internal/printer"
 )
 
 func ParseStyleConfiguration(log *logger.Logger, config string) (*printer.StyleOptions, error) {

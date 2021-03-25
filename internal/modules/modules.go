@@ -9,8 +9,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/Helcaraxan/gomod/internal/logger"
-	"github.com/Helcaraxan/gomod/internal/util"
+	"github.com/paulxiong/gomod/internal/logger"
+	"github.com/paulxiong/gomod/internal/util"
 )
 
 // ModuleInfo represents the data returned by 'go list -m --json' for a Go module. It's content is

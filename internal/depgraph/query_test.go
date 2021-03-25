@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Helcaraxan/gomod/internal/graph"
-	"github.com/Helcaraxan/gomod/internal/modules"
-	"github.com/Helcaraxan/gomod/internal/query"
-	"github.com/Helcaraxan/gomod/internal/testutil"
+	"github.com/paulxiong/gomod/internal/graph"
+	"github.com/paulxiong/gomod/internal/modules"
+	"github.com/paulxiong/gomod/internal/query"
+	"github.com/paulxiong/gomod/internal/testutil"
 )
 
 type queryTestGraph struct {

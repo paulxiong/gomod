@@ -3,8 +3,8 @@ package depgraph
 import (
 	"fmt"
 
-	"github.com/Helcaraxan/gomod/internal/graph"
-	"github.com/Helcaraxan/gomod/internal/modules"
+	"github.com/paulxiong/gomod/internal/graph"
+	"github.com/paulxiong/gomod/internal/modules"
 )
 
 // Package represents a single Go package in a dependency graph.

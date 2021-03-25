@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Helcaraxan/gomod/internal/testutil"
+	"github.com/paulxiong/gomod/internal/testutil"
 )
 
 func TestGraphNodes(t *testing.T) {

@@ -87,7 +87,7 @@ readonly create_response="$(
     --data "@${release_notes}" \
     --header "Authorization: token ${GITHUB_API_TOKEN}" \
     --header "Content-Type: application/json" \
-    https://api.github.com/repos/Helcaraxan/gomod/releases
+    https://api.github.com/repos/paulxiong/gomod/releases
 )"
 
 readonly release_name="$(jq --raw-output '.name' <<<"${create_response}")"

@@ -11,7 +11,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/Helcaraxan/gomod/internal/logger"
+	"github.com/paulxiong/gomod/internal/logger"
 )
 
 func RunCommand(log *logger.Logger, path string, cmd string, args ...string) (stdout []byte, stderr []byte, err error) {

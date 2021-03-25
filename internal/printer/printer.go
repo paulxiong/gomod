@@ -8,10 +8,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/Helcaraxan/gomod/internal/depgraph"
-	"github.com/Helcaraxan/gomod/internal/graph"
-	"github.com/Helcaraxan/gomod/internal/logger"
-	"github.com/Helcaraxan/gomod/internal/util"
+	"github.com/paulxiong/gomod/internal/depgraph"
+	"github.com/paulxiong/gomod/internal/graph"
+	"github.com/paulxiong/gomod/internal/logger"
+	"github.com/paulxiong/gomod/internal/util"
 )
 
 type Level uint8

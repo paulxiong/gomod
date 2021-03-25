@@ -8,7 +8,7 @@ import (
 
 	"go.uber.org/zap/zapcore"
 
-	"github.com/Helcaraxan/gomod/internal/logger"
+	"github.com/paulxiong/gomod/internal/logger"
 )
 
 func TestLogger(t *testing.T) *logger.Builder {

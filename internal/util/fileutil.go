@@ -7,7 +7,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/Helcaraxan/gomod/internal/logger"
+	"github.com/paulxiong/gomod/internal/logger"
 )
 
 // PrepareOutputPath ensures that the directory containing the specified path exist. It also checks

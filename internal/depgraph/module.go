@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Helcaraxan/gomod/internal/graph"
-	"github.com/Helcaraxan/gomod/internal/modules"
+	"github.com/paulxiong/gomod/internal/graph"
+	"github.com/paulxiong/gomod/internal/modules"
 )
 
 // Module represents a module in a Go module's dependency graph.

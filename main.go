@@ -11,13 +11,13 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/Helcaraxan/gomod/internal/analysis"
-	"github.com/Helcaraxan/gomod/internal/depgraph"
-	"github.com/Helcaraxan/gomod/internal/logger"
-	"github.com/Helcaraxan/gomod/internal/parsers"
-	"github.com/Helcaraxan/gomod/internal/printer"
-	"github.com/Helcaraxan/gomod/internal/query"
-	"github.com/Helcaraxan/gomod/internal/reveal"
+	"github.com/paulxiong/gomod/internal/analysis"
+	"github.com/paulxiong/gomod/internal/depgraph"
+	"github.com/paulxiong/gomod/internal/logger"
+	"github.com/paulxiong/gomod/internal/parsers"
+	"github.com/paulxiong/gomod/internal/printer"
+	"github.com/paulxiong/gomod/internal/query"
+	"github.com/paulxiong/gomod/internal/reveal"
 )
 
 type commonArgs struct {

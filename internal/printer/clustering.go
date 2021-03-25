@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/Helcaraxan/gomod/internal/graph"
+	"github.com/paulxiong/gomod/internal/graph"
 )
 
 func computeGraphClusters(g *graph.HierarchicalDigraph, config *PrintConfig) *graphClusters {

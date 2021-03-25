@@ -9,10 +9,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/Helcaraxan/gomod/internal/graph"
-	"github.com/Helcaraxan/gomod/internal/logger"
-	"github.com/Helcaraxan/gomod/internal/modules"
-	"github.com/Helcaraxan/gomod/internal/util"
+	"github.com/paulxiong/gomod/internal/graph"
+	"github.com/paulxiong/gomod/internal/logger"
+	"github.com/paulxiong/gomod/internal/modules"
+	"github.com/paulxiong/gomod/internal/util"
 )
 
 func (g *DepGraph) buildImportGraph(dl *logger.Builder) error {

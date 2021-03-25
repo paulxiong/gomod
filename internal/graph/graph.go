@@ -6,7 +6,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/Helcaraxan/gomod/internal/logger"
+	"github.com/paulxiong/gomod/internal/logger"
 )
 
 var (

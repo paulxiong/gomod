@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Helcaraxan/gomod/internal/printer"
-	"github.com/Helcaraxan/gomod/internal/testutil"
+	"github.com/paulxiong/gomod/internal/printer"
+	"github.com/paulxiong/gomod/internal/testutil"
 )
 
 var regenerate = flag.Bool("regenerate", false, "Instead of testing the output, use the generated output to refresh the golden images.")
@@ -23,7 +23,7 @@ func TestGraphGeneration(t *testing.T) {
 		"Full": {
 			expectedFileBase: "full",
 			dotArgs: &graphArgs{
-				query: "deps(github.com/Helcaraxan/gomod:test)",
+				query: "deps(github.com/paulxiong/gomod:test)",
 				style: &printer.StyleOptions{
 					ScaleNodes: true,
 					Cluster:    printer.Full,
@@ -33,7 +33,7 @@ func TestGraphGeneration(t *testing.T) {
 		"Shared": {
 			expectedFileBase: "shared-dependencies",
 			dotArgs: &graphArgs{
-				query: "shared(deps(github.com/Helcaraxan/gomod))",
+				query: "shared(deps(github.com/paulxiong/gomod))",
 				style: &printer.StyleOptions{},
 			},
 		},
